@@ -15,7 +15,7 @@
                         </label>
                         <button width="136" height="115" alignment="left" backgroundImage="pizza-icon-450x450" id="plg-6b-ZuC">
                             <connections>
-                                <segue destination="Y90-z3-3Ib" kind="push" id="b6x-Eo-bym"/>
+                                <segue destination="Y90-z3-3Ib" kind="push" identifier="pushSegueToVistaTamaño" id="b6x-Eo-bym"/>
                             </connections>
                         </button>
                     </items>
@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="250" y="330.75"/>
         </scene>
-        <!--Vista Tamaño-->
+        <!--identificadorTamaño-->
         <scene sceneID="SxK-aJ-Dwx">
             <objects>
-                <controller id="Y90-z3-3Ib" customClass="vistaTamaño" customModule="PizzaAWatch_WatchKit_Extension">
+                <controller identifier="identificadorTamaño" id="Y90-z3-3Ib" customClass="vistaTamaño" customModule="PizzaAWatch_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="TAMAÑO" id="x7E-v3-bf6"/>
                         <button width="55" height="48" alignment="center" backgroundImage="pizza-icon-450x450" id="P52-4o-AkM">

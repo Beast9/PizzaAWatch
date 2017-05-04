@@ -19,6 +19,9 @@
                             </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="bottonPrincipal" destination="plg-6b-ZuC" id="V04-1P-Idx"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="250" y="330.75"/>
